@@ -1,11 +1,12 @@
-body{
- background-color:#97dbf0;
- font-family: Verdana, sans-serif;
+body {
+    background-color: #97dbf0;
+    font-family: Verdana, sans-serif;
 }
 
-header{
+header {
     text-align: center;
 }
+
 
 
 .navbar {
@@ -13,19 +14,83 @@ header{
     box-shadow: 0 2px 10px black;
 }
 
-.logo-navbar{
-    width: 10%;
-    height: 10%;
+
+.navbar .container-fluid, 
+.navbar-collapse,
+.navbar-nav {
+    display: flex !important;
+    align-items: center !important;
 }
 
-.nav-item{
+
+.navbar .form-control,
+.navbar .d-flex, 
+.navbar .btn {
+    height: 38px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+
+.logo-navbar {
+    width: 10%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
     text-decoration-color: aliceblue;
 }
 
 
+.card {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important;
+}
+
+
+.card-img-top {
+    height: 200px !important;
+    object-fit: contain !important; 
+    background-color: #fff;        
+    padding: 10px;
+}
+
+
+.card-body {
+    display: flex !important;
+    flex-direction: column !important;
+    flex-grow: 1 !important;
+}
+
+
+.card-title {
+    margin-bottom: 0.5rem;
+}
+
+
+.card-text {
+    flex-grow: 1 !important;
+    margin-bottom: 1.5rem !important; 
+}
+
+
+.card-body .btn {
+    align-self: center !important;
+    margin-top: auto !important; 
+    width: 100% !important;      
+    max-width: 180px !important; 
+}
+
+====================================================== */
+
 table {
     border-collapse: collapse; 
-    /*width: 100%; /* Opcional: para que ocupe el ancho disponible */
 }
 
 table, th, td {
@@ -37,21 +102,21 @@ th, td {
     text-align: left;
 }
 
-
 a img {
     display: block;
     text-align: center;
     width: 100%;      
     max-width: 100%;
     height: auto;
-    display: block;
 }
 
-section article{
-  margin: auto;
-  margin-top: 100px;
-  left: auto;
+section article {
+    margin: auto;
+    margin-top: 100px;
+    left: auto;
 }
+
+
 
 footer {
     background-color: black;
